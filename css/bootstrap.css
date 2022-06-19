@@ -4286,7 +4286,12 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
+    /* MODIFIER */
+    /*
+    border-top: 4px solid\9; */
+
+    /* MODIFIER PART */
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4378,10 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+
+    /* SUPPRIMER */
+    /* 
+    filter: progid:DXImageTransform.Microsoft.Gradient(enabled=false) */
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5132,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+/* MODIFIER */
+/*
+@media (max-device-width:480px) and (orientation:landscape) {*/
+
+/* MODIFIER PART */
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
@@ -7682,7 +7695,12 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    /* MODIFIER */
+    /*
+    background-color: #000\9; */
+    
+    /* MODIFIER PART */
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
