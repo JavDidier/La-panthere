@@ -682,7 +682,7 @@ footer a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -784,7 +784,7 @@ h4 {
     color: #ff5100!important;
 }
 
-tc-white-2 {
+.tc-white-2 {
     color:#C23D00;
 }
 
