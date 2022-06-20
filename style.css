@@ -652,7 +652,11 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     /* MODIFIER */
-    color: #FFF!important;
+    color: rgb(0, 0, 0)!important;
+}
+
+footer a {
+    color: #fff!important;
 }
 
 .container {
