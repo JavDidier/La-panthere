@@ -11,6 +11,8 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    /* AJOUT */
+    text-decoration: underline;
 }
 
 a:hover {
@@ -746,6 +748,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -1077,4 +1080,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.h2-bold-modifier {
+    font-weight: bold;
 }
